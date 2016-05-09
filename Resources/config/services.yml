@@ -1,0 +1,4 @@
+services:
+    tds_telegram.bot.bots_manager:
+        class: TDS\TelegramBundle\Bot\BotsManager
+        arguments: ['%tds_telegram%']

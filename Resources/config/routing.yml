@@ -1,0 +1,3 @@
+tds_telegram_homepage:
+    path:     /
+    defaults: { _controller: TDSTelegramBundle:Default:index }
